@@ -15,3 +15,10 @@ export type DataArray = [
         color: string
     }
 ]
+
+export type Report = {
+    id: string;
+    report_name: string;
+    header: HeaderObj[],
+    data: DataArray[]
+}
